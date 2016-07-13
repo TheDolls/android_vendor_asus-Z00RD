@@ -22,27 +22,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Bluetooth_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_General_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Global_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Global_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Handset_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Handset_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Hdmi_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Hdmi_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Headset_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Headset_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZD550KL/MTP_Speaker_cal_ZD550KL.acdb:system/etc/acdbdata/MTP/ZD550KL/MTP_Speaker_cal_ZD550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Bluetooth_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Bluetooth_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_General_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_General_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Global_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Global_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Handset_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Handset_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Hdmi_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Hdmi_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Headset_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Headset_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE550KL/MTP_Speaker_cal_ZE550KL.acdb:system/etc/acdbdata/MTP/ZE550KL/MTP_Speaker_cal_ZE550KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Bluetooth_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Bluetooth_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_General_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_General_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Global_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Global_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Handset_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Handset_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Hdmi_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Hdmi_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Headset_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Headset_cal_ZE600KL.acdb \
-    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/ZE600KL/MTP_Speaker_cal_ZE600KL.acdb:system/etc/acdbdata/MTP/ZE600KL/MTP_Speaker_cal_ZE600KL.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Bluetooth_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_General_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_General_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Global_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Global_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Handset_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Handset_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Hdmi_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Headset_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Headset_cal.acdb \
+    vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/MP/MTP_MP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MP/MTP_MP_Speaker_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
     vendor/asus/msm8916-common/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
@@ -482,4 +468,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
+    vendor/asus/msm8916-common/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
