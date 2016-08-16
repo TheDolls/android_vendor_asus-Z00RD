@@ -522,8 +522,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so
-
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
+    vendor/asus/msm8916-common/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
+    vendor/asus/msm8916-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/asus/msm8916-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
