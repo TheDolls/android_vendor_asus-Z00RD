@@ -448,13 +448,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
-    vendor/asus/msm8916-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
-    vendor/asus/msm8916-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
-    vendor/asus/msm8916-common/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-    vendor/asus/msm8916-common/proprietary/lib64/libinvensense_hal.so:system/lib64/libinvensense_hal.so \
-    vendor/asus/msm8916-common/proprietary/lib64/libmllite.so:system/lib64/libmllite.so \
-    vendor/asus/msm8916-common/proprietary/lib64/libmplmpu.so:system/lib64/libmplmpu.so \
-    vendor/asus/msm8916-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/bin/akmd09911:system/bin/akmd09911 \
+    vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.AKM.msm8916.so:system/lib64/hw/sensors.AKM.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.PS_ALS.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
@@ -498,7 +494,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt\
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/asus/msm8916-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/asus/msm8916-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/asus/msm8916-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
