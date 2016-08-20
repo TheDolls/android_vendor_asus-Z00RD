@@ -451,13 +451,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/asus/msm8916-common/proprietary/etc/sensor_init.sh:system/etc/sensor_init.sh \
     vendor/asus/msm8916-common/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/asus/msm8916-common/proprietary/lib/sensors.AKM.msm8916.so:system/lib/sensors.AKM.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/lib/sensors.PS_ALS.msm8916.so:system/lib/sensors.PS_ALS.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/lib/sensors.msm8916.so:system/lib/sensors.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib/hw/sensors.AKM.msm8916.so:system/lib/hw/sensors.AKM.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib/hw/sensors.PS_ALS.msm8916.so:system/lib/hw/sensors.PS_ALS.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/asus/msm8916-common/proprietary/lib64/libcmdthread.so:system/lib64/libcmdthread.so \
     vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.AKM.msm8916.so:system/lib64/hw/sensors.AKM.msm8916.so \
-    vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.PS_ALS.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.PS_ALS.msm8916.so:system/lib64/hw/sensors.PS_ALS.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
