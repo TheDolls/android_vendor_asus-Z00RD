@@ -93,6 +93,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/asus/msm8916-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/asus/msm8916-common/proprietary/bin/mm-qcamera-app:system/bin/mm-qcamera-app \
+    vendor/asus/msm8916-common/proprietary/bin/Camera_Unique_ID:system/bin/Camera_Unique_ID \
+    vendor/asus/msm8916-common/proprietary/bin/BackupCalibrationData:system/bin/BackupCalibrationData \
+    vendor/asus/msm8916-common/proprietary/bin/RestoreCalibrationData:system/bin/RestoreCalibrationData \
+    vendor/asus/msm8916-common/proprietary/bin/camera_flash:system/bin/camera_flash \
+    vendor/asus/msm8916-common/proprietary/bin/camera_flash2:system/bin/camera_flash2 \
+    vendor/asus/msm8916-common/proprietary/bin/CameraModule:system/bin/CameraModule \
+    vendor/asus/msm8916-common/proprietary/bin/CameraOTP:system/bin/CameraOTP \
+    vendor/asus/msm8916-common/proprietary/bin/CameraResolution:system/bin/CameraResolution \
+    vendor/asus/msm8916-common/proprietary/bin/CameraTest:system/bin/CameraTest \
     vendor/asus/msm8916-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -488,6 +498,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/asus/msm8916-common/proprietary/bin/LaserOn:system/bin/LaserOn \
+    vendor/asus/msm8916-common/proprietary/bin/LaserFocus_Status:system/bin/LaserFocus_Status \
+    vendor/asus/msm8916-common/proprietary/bin/ZE500KG_afCali:system/bin/ZE500KG_afCali \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ispDB/ParameterDB.db:system/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/msm8916-common/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
