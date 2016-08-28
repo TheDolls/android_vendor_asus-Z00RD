@@ -104,8 +104,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/bin/CameraResolution:system/bin/CameraResolution \
     vendor/asus/msm8916-common/proprietary/bin/CameraTest:system/bin/CameraTest \
     vendor/asus/msm8916-common/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/asus/msm8916-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/asus/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/asus/msm8916-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     vendor/asus/msm8916-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
