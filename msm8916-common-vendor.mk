@@ -524,7 +524,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
-    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_SR.cfg:system/lib/DIT_AT_BACK_SR.cfg \
+    vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_SR.CFG:system/lib/DIT_AT_BACK_SR.CFG \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_HL.cfg:system/lib/DIT_AT_FRONT_HL.cfg \
     vendor/asus/msm8916-common/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
