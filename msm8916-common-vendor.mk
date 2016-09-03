@@ -74,14 +74,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libsarcsoft.so:system/lib/libsarcsoft.so \
     vendor/asus/msm8916-common/proprietary/lib/libsphere3.so:system/lib/libsphere3.so \
     vendor/asus/msm8916-common/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306_anc.bin:system/etc/firmware/wcd9306_anc.bin \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306_mbhc.bin:system/etc/firmware/wcd9306_mbhc.bin \
     vendor/asus/msm8916-common/proprietary/lib/soundfx/libicepower.so:system/lib/soundfx/libicepower.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
