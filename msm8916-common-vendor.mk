@@ -74,8 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/lib/libsarcsoft.so:system/lib/libsarcsoft.so \
     vendor/asus/msm8916-common/proprietary/lib/libsphere3.so:system/lib/libsphere3.so \
     vendor/asus/msm8916-common/proprietary/vendor/etc/style.cng:system/vendor/etc/style.cng \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306_anc.bin:system/etc/firmware/wcd9306_anc.bin \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306_mbhc.bin:system/etc/firmware/wcd9306_mbhc.bin \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306/wcd9306_anc.bin:system/etc/firmware/wcd9306/wcd9306_anc.bin \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/wcd9306/wcd9306_mbhc.bin:system/etc/firmware/wcd9306/wcd9306_mbhc.bin \
     vendor/asus/msm8916-common/proprietary/lib/soundfx/libicepower.so:system/lib/soundfx/libicepower.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
