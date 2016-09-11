@@ -544,15 +544,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_mmcamera2_stats_algorithm.so:system/vendor/lib/libxditk_mmcamera2_stats_algorithm.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libxditk_Network.so:system/vendor/lib/libxditk_Network.so \
     vendor/asus/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/asus/msm8916-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/asus/msm8916-common/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/msm8916-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/asus/msm8916-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/msm8916-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
@@ -794,11 +803,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.b10:system/etc/firmware/wcnss.b10 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.b11:system/etc/firmware/wcnss.b11 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/asus/msm8916-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/asus/msm8916-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/asus/msm8916-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
