@@ -803,11 +803,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.b10:system/etc/firmware/wcnss.b10 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.b11:system/etc/firmware/wcnss.b11 \
     vendor/asus/msm8916-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
+    vendor/asus/msm8916-common/proprietary/etc/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/asus/msm8916-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/asus/msm8916-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/asus/msm8916-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
